@@ -1,0 +1,375 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w6xuvg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w6xuvg#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?w6xuvg') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?w6xuvg') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?w6xuvg##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.eledd {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eledd-settings2 {
+  &:before {
+    content: $eledd-settings2; 
+  }
+}
+.eledd-settings1 {
+  &:before {
+    content: $eledd-settings1; 
+  }
+}
+.eledd-settings3 {
+  &:before {
+    content: $eledd-settings3; 
+  }
+}
+.eledd-reset3 {
+  &:before {
+    content: $eledd-reset3; 
+  }
+}
+.eledd-reset1 {
+  &:before {
+    content: $eledd-reset1; 
+  }
+}
+.eledd-reset2 {
+  &:before {
+    content: $eledd-reset2; 
+  }
+}
+.eledd-info5 {
+  &:before {
+    content: $eledd-info5; 
+  }
+}
+.eledd-info6 {
+  &:before {
+    content: $eledd-info6; 
+  }
+}
+.eledd-info7 {
+  &:before {
+    content: $eledd-info7; 
+  }
+}
+.eledd-info8 {
+  &:before {
+    content: $eledd-info8; 
+  }
+}
+.eledd-info1 {
+  &:before {
+    content: $eledd-info1; 
+  }
+}
+.eledd-info2 {
+  &:before {
+    content: $eledd-info2; 
+  }
+}
+.eledd-info3 {
+  &:before {
+    content: $eledd-info3; 
+  }
+}
+.eledd-info4 {
+  &:before {
+    content: $eledd-info4; 
+  }
+}
+.eledd-elite-licenser {
+  &:before {
+    content: $eledd-elite-licenser; 
+  }
+}
+.eledd-range-pen-1 {
+  &:before {
+    content: $eledd-range-pen-1; 
+  }
+}
+.eledd-range-pen-2 {
+  &:before {
+    content: $eledd-range-pen-2; 
+  }
+}
+.eledd-des-close {
+  &:before {
+    content: $eledd-des-close; 
+  }
+}
+.eledd-des-note {
+  &:before {
+    content: $eledd-des-note; 
+  }
+}
+.eledd-des-plus {
+  &:before {
+    content: $eledd-des-plus; 
+  }
+}
+.eledd-check-circle-o {
+  &:before {
+    content: $eledd-check-circle-o; 
+  }
+}
+.eledd-check-circle11 {
+  &:before {
+    content: $eledd-check-circle11; 
+  }
+}
+.eledd-des-note1 {
+  &:before {
+    content: $eledd-des-note1; 
+  }
+}
+.eledd-refresh {
+  &:before {
+    content: $eledd-refresh; 
+  }
+}
+.eledd-rotate-right {
+  &:before {
+    content: $eledd-rotate-right; 
+  }
+}
+.eledd-times-circle {
+  &:before {
+    content: $eledd-times-circle; 
+  }
+}
+.eledd-times-circle-o {
+  &:before {
+    content: $eledd-times-circle-o; 
+  }
+}
+.eledd-trash-21 {
+  &:before {
+    content: $eledd-trash-21; 
+  }
+}
+.eledd-trash-o {
+  &:before {
+    content: $eledd-trash-o; 
+  }
+}
+.eledd-trash1 {
+  &:before {
+    content: $eledd-trash1; 
+  }
+}
+.eledd-trash11 {
+  &:before {
+    content: $eledd-trash11; 
+  }
+}
+.eledd-x-circle1 {
+  &:before {
+    content: $eledd-x-circle1; 
+  }
+}
+.eledd-x-octagon {
+  &:before {
+    content: $eledd-x-octagon; 
+  }
+}
+.eledd-x-square1 {
+  &:before {
+    content: $eledd-x-square1; 
+  }
+}
+.eledd-check1 {
+  &:before {
+    content: $eledd-check1; 
+  }
+}
+.eledd-check-circle1 {
+  &:before {
+    content: $eledd-check-circle1; 
+  }
+}
+.eledd-check-square1 {
+  &:before {
+    content: $eledd-check-square1; 
+  }
+}
+.eledd-circle-check1 {
+  &:before {
+    content: $eledd-circle-check1; 
+  }
+}
+.eledd-copy {
+  &:before {
+    content: $eledd-copy; 
+  }
+}
+.eledd-minus {
+  &:before {
+    content: $eledd-minus; 
+  }
+}
+.eledd-minus-circle {
+  &:before {
+    content: $eledd-minus-circle; 
+  }
+}
+.eledd-minus-square {
+  &:before {
+    content: $eledd-minus-square; 
+  }
+}
+.eledd-refresh-cw {
+  &:before {
+    content: $eledd-refresh-cw; 
+  }
+}
+.eledd-repeat {
+  &:before {
+    content: $eledd-repeat; 
+  }
+}
+.eledd-rotate-ccw {
+  &:before {
+    content: $eledd-rotate-ccw; 
+  }
+}
+.eledd-rotate-cw {
+  &:before {
+    content: $eledd-rotate-cw; 
+  }
+}
+.eledd-save {
+  &:before {
+    content: $eledd-save; 
+  }
+}
+.eledd-settings4 {
+  &:before {
+    content: $eledd-settings4; 
+  }
+}
+.eledd-square-check {
+  &:before {
+    content: $eledd-square-check; 
+  }
+}
+.eledd-x-normal {
+  &:before {
+    content: $eledd-x-normal; 
+  }
+}
+.eledd-x-circle {
+  &:before {
+    content: $eledd-x-circle; 
+  }
+}
+.eledd-x-square {
+  &:before {
+    content: $eledd-x-square; 
+  }
+}
+.eledd-bell {
+  &:before {
+    content: $eledd-bell; 
+  }
+}
+.eledd-bell-off {
+  &:before {
+    content: $eledd-bell-off; 
+  }
+}
+.eledd-check {
+  &:before {
+    content: $eledd-check; 
+  }
+}
+.eledd-check-circle {
+  &:before {
+    content: $eledd-check-circle; 
+  }
+}
+.eledd-check-square {
+  &:before {
+    content: $eledd-check-square; 
+  }
+}
+.eledd-circle {
+  &:before {
+    content: $eledd-circle; 
+  }
+}
+.eledd-circle-check {
+  &:before {
+    content: $eledd-circle-check; 
+  }
+}
+.eledd-copy1 {
+  &:before {
+    content: $eledd-copy1; 
+  }
+}
+.eledd-download {
+  &:before {
+    content: $eledd-download; 
+  }
+}
+.eledd-edit {
+  &:before {
+    content: $eledd-edit; 
+  }
+}
+.eledd-edit-2 {
+  &:before {
+    content: $eledd-edit-2; 
+  }
+}
+.eledd-eye {
+  &:before {
+    content: $eledd-eye; 
+  }
+}
+.eledd-eye-off {
+  &:before {
+    content: $eledd-eye-off; 
+  }
+}
+.eledd-save1 {
+  &:before {
+    content: $eledd-save1; 
+  }
+}
+.eledd-settings {
+  &:before {
+    content: $eledd-settings; 
+  }
+}
+.eledd-elite-licenser1 {
+  &:before {
+    content: $eledd-elite-licenser1; 
+  }
+}
+.eledd-setting {
+  &:before {
+    content: $eledd-setting; 
+  }
+}
+

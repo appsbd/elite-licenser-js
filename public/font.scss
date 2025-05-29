@@ -1,0 +1,15 @@
+@import "./font_lib";
+
+$font_default_color: #29e37a;
+.dashicons-el-edd{
+  &:before {
+    // @extend .apmc;
+    // or
+    font-family: '#{$icomoon-font-family}' !important;
+    content: $eledd-elite-licenser;
+    color :$font_default_color;
+  }
+}
+#adminmenu li:not(.current) div.dashicons-el-edd:before{
+  color :$font_default_color !important;
+}
